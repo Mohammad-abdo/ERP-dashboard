@@ -1,12 +1,15 @@
 import React from "react";
 import TopBar from "./TopBar";
+import SideBar from "./SideBar";
 
 const Dashboard = ()=>{
 
     return <>
     <TopBar/>
     
-    <h1>Dashboard</h1>
+    <div className="">
+        <SideBar/>
+    </div>
     </>
 }
 
