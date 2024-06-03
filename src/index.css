@@ -1,0 +1,119 @@
+/* Gloobal Css */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* signup  */
+.register{
+
+  width: 100%;
+  flex-direction: column;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left{
+  background: url(./assets/m1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: fill;
+  width: 70%;
+  height: 100%;
+  background-color: aqua;
+}
+.father{
+  /* background-color: #ededed; */
+  /* background: linear-gradient(#ededed79 , rgb(245, 211, 100) ,rgb(234, 233, 233)); */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.father form {
+  width: 60%;
+  margin-top: 50px;
+  box-shadow: 0px 2px 15px rgb(0 0 0 /10%);
+  padding: 20px ;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.396);
+
+  .form-group{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    input{
+      width: 100%;
+      padding:  10px 20px ;
+      outline: none;
+      color: rgb(62, 62, 62);
+      background-color: rgba(255, 255, 255, 0.396);
+      border-radius: 5px;
+      box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.237);
+      border: 2px solid rgba(0,0,0,0.1);
+transition: 0.3s;
+&:focus{
+  border: 2px solid #86b7fe;
+}
+&::placeholder{
+  color:rgba(0,0,0,0.3);
+  font-size: 14px;
+  font-weight: 400;
+
+}
+    }
+    lable{
+      margin-bottom: 10PX ;
+      font-size: 16px;
+      font-weight: 700;
+      color:rgba(0, 0, 0, 0.771)
+
+    }
+  }
+}
+.register .form-submit button{
+outline: none;
+border: none;
+background-color: #86b7fe;
+padding: 10px 20px ;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+border: 2px solid white;
+transition: 0.3s;
+font-weight: bold;
+transition: all 0.3s ease-in-out;
+&:hover{
+    background-color: #4170b3;
+  border-color: rgba(255, 255, 255, 0.236);
+  color: #f5f4f4;
+}
+}
+
+.alert-danger{
+  position: absolute;
+  top :53%;
+  font-size: 15px;
+  left: 40%;
+  width: 100%;
+  color: red;
+}
+.email_error{
+  font-size: 22px;
+font-weight: bold;
+background: #ededed;
+padding:  10px 0;
+width: 80%;
+margin:30px auto 0 ;
+border-radius: 30px;
+color: red;
+}
+
+

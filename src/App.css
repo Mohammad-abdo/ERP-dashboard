@@ -1,0 +1,16 @@
+.loader{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    z-index: 9999;
+}
+
+.loader-heading{
+    color: white;
+    margin: 30px 0;
+    font-size: 60px;
+}
